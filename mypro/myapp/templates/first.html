@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>first html page</h1>
+
+<!--jinja2 webtemplate language-->
+
+
+<!--<p>name:{{name}}</p>-->
+<!--<p>age:{{age}}</p>-->
+<!--<p>place:{{place}}</p>-->
+
+
+<!--{% for i in data %}-->
+<!--<p>{{i.name}},{{i.age}},{{i.place}}</p>-->
+<!--{% endfor %}-->
+
+<!--<ul>-->
+<!--    {%for i in data%}-->
+<!--    <li>{{i.name}},{{i.age}},{{i.place}}</li>-->
+<!--    {% endfor %}-->
+<!--</ul>-->
+
+
+<table>
+    {% for i in data%}
+    <tr>
+        <th>{{i.name}}</th>
+        <th>{{i.age}}</th>
+        <th>{{i.place}}</th>
+    </tr>
+{% endfor %}
+</table>
+</body>
+</html>

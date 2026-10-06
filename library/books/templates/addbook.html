@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h2>add movie details</h2>
+<form method="post">
+    {% csrf_token %}
+    <input type="text" name="t" placeholder="enter book title"><br>
+    <input type="text" name="a" placeholder="enter author name"><br>
+    <input type="text" name="p" placeholder="enter book price"><br>
+    <input type="text" name="l" placeholder="enter language"><br>
+    <input type="text" name="pa" placeholder="enter pages"><br>
+    <input type="submit">
+</form>
+</body>
+</html>
